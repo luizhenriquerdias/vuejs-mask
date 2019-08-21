@@ -1,0 +1,25 @@
+{
+  "name": "vuejs-mask",
+  "version": "1.0.0",
+  "description": "Máscara (diretiva) dinâmica para Vuetify",
+  "main": "index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizhenriquerdias/vuejs-mask.git"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "mask",
+    "mascara"
+  ],
+  "author": "Luiz Henrique Rezende Dias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luizhenriquerdias/vuejs-mask/issues"
+  },
+  "homepage": "https://github.com/luizhenriquerdias/vuejs-mask#readme"
+}
