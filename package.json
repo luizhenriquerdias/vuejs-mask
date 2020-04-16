@@ -1,7 +1,7 @@
 {
   "name": "vuejs-mask",
-  "version": "1.0.1",
-  "description": "Máscara (diretiva) dinâmica para Vuetify",
+  "version": "1.0.2",
+  "description": "Máscara (diretiva) dinâmica para VueJS",
   "main": "src/index.js",
   "files": [
     "/src"

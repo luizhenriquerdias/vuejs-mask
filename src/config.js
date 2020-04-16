@@ -1,4 +1,4 @@
 export default {
-  default: ['(##) ####-####', '(##) #####-####'],
-  token: { '#': { pattern: /\d/ } }
+	default: ['(##) ####-####', '(##) #####-####'],
+	token: { '#': { pattern: /\d/ } }
 };
