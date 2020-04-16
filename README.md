@@ -11,6 +11,7 @@
 ```js
 npm install vuejs-mask --save
 
+import Vue from 'vue'
 import mask from 'vuejs-mask'
 Vue.use(mask)
 ```
