@@ -35,7 +35,7 @@ function applyMask(el, data, binding) {
 }
 
 function getData(vnode) {
-  return vnode.data.props || vnode.data.model;
+	return vnode.data.props || vnode.data.model || vnode.data.domProps;
 }
 
 function bind(el, binding, vnode) {
