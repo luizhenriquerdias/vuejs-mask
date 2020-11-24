@@ -1,6 +1,6 @@
 {
   "name": "vuejs-mask",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Dynamic mask (directive) for VueJS text inputs",
   "main": "src/index.js",
   "files": [
