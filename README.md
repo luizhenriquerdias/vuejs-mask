@@ -1,12 +1,12 @@
 ### Features
 
-- É só instalar e usar. Não requer configurações extras.
+- Just install and use. Doesn't require additional configurations.
 
-- Funciona tanto para v-text-field (Vuetify) quanto input (html)
+- Works with input (html), v-text-field (Vuetify) and q-input (QuasarJS)
 
-- Extremamente leve
+- Extremely lightweight
 
-### Instalação
+### Installation
 
 ```js
 npm install vuejs-mask --save
@@ -16,13 +16,13 @@ import mask from 'vuejs-mask'
 Vue.use(mask)
 ```
 
-### Uso
+### Usage
 
 ```html
-<input  v-model="telefone"  v-mask="['(##) ####-####', '(##) #####-####']" />
+<input v-model="model" v-mask="['(##) ####-####', '(##) #####-####']" />
 
 -ou- 
 
-<v-text-field  v-model="telefone"  v-mask="['(##) ####-####', '(##) #####-####']" />
+<v-text-field v-model="model" v-mask="['(##) ####-####', '(##) #####-####']" />
 
 ```

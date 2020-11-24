@@ -5,7 +5,7 @@ function getInput(el) {
 	if (el.tagName.toLocaleUpperCase() !== 'INPUT') {
 		const els = el.getElementsByTagName('input');
 		if (els.length !== 1)
-			throw new Error(`v-mask precisa de 1 input. Encontrou ${els.length}`);
+			throw new Error(`v-mask needs 1 input. Found ${els.length}`);
 		else
 			el = els[0];
 	}
@@ -22,7 +22,7 @@ function getConfig(binding) {
 
 function applyMask(el, data, binding) {
 	if (!binding.value)
-		return; // Retorna se não tiver nenhuma máscara definida
+		return; // Returns if no mask
 
 	el = getInput(el);
 	el.value = data ? data.value : el.value;
@@ -50,7 +50,7 @@ function componentUpdated(el, binding, vnode, oldVnode) {
 	const oldData = getData(oldVnode);
 
 	if (data.value === oldData.value)
-		return; // Retorna se o novo valor e o antigo forem iguais (impede loop infinito)
+		return; // Prevents infinite loop
 
 	applyMask(el, data, binding);
 }
