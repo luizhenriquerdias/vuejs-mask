@@ -15,8 +15,9 @@ function getInput(el) {
 function getConfig(binding) {
 	let config = opt.default;
 	if (binding.value && Array.isArray(binding.value) && binding.value.length > 0)
-		config = binding.value;
-	return config;
+		if (binding.value.every(value => typeof value === 'string'))
+			config = binding.value;
+	return config.sort();
 }
 
 function applyMask(el, data, binding) {
